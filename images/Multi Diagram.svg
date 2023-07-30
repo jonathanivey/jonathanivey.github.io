@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="354pt" height="256.08pt" viewBox="0 0 354 256.08">
+<defs>
+<clipPath id="clip_0">
+<path transform="matrix(.24,0,0,.24,0,0)" d="M0 0H1475V1058.2825H0Z" fill-rule="evenodd"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_0)">
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M1 1H490V350.29H1Z" fill="#ffffff"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M75.85 200.59C75.85 200.59 75.85 196.55333 75.85 188.48"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M75.85 181.75 80.34 190.73 75.85 188.48 71.35 190.73 75.85 181.75Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M75.85 181.75 80.34 190.73 75.85 188.48 71.35 190.73 75.85 181.75Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M10.98 200.59H140.72V260.47H10.98Z" fill="#dae8fc"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#6c8ebf" d="M10.98 200.59H140.72V260.47H10.98Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="237" x="56.03125 66.70325 76.47925 86.1875">BERT</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M75.85 64.87C75.85 64.87 75.85 60.833337 75.85 52.76"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M75.85 46.02 80.34 55.01 75.85 52.76 71.35 55.01 75.85 46.02Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M75.85 46.02 80.34 55.01 75.85 52.76 71.35 55.01 75.85 46.02Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M140.71 98.13 200.6 98.1V310.4L254.11 310.37"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M259.35 310.37 252.37 313.86 254.11 310.37 252.37 306.88 259.35 310.37Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M259.35 310.37 252.37 313.86 254.11 310.37 252.37 306.88 259.35 310.37Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M10.98 64.87H140.72V131.4H10.98Z" fill="#dae8fc"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#6c8ebf" d="M10.98 64.87H140.72V131.4H10.98Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="85" x="48.4375 58.2135 70.6615 78.6615 83.1095 87.557498 95.557498">Emotion</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="104" x="32 42.672 47.120004 54.224004 60.448 66.672008 71.12 76.448009 80.896 88.00001 95.10401 99.55201 104.00001 112.00001">Classification</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="123" x="57.34375 67.11975 74.223758 82.223758 89.32776">Layer</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M75.85 280.43V266.82"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M75.85 261.58 79.34 268.57 75.85 266.82 72.35 268.57 75.85 261.58Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M75.85 261.58 79.34 268.57 75.85 266.82 72.35 268.57 75.85 261.58Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M10.98 280.43H140.72V340.31H10.98Z" fill="#dae8fc"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#6c8ebf" d="M10.98 280.43H140.72V340.31H10.98Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="317" x="35.546876 47.098878 55.098878 64.87488 77.322879 85.322879 89.770877 94.21887 102.21887 110.21887">GoEmotions</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M75.85 150.69V137.76"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M75.85 132.52 79.34 139.5 75.85 137.76 72.35 139.5 75.85 132.52Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M75.85 132.52 79.34 139.5 75.85 137.76 72.35 139.5 75.85 132.52Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M10.98 150.69H140.72V180.63H10.98Z" fill="#dae8fc"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#6c8ebf" d="M10.98 150.69H140.72V180.63H10.98Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="172" x="28.671875 40.223878 45.551877 53.551877 61.551877 69.55188 77.55188 81.99988 85.99988 95.77588 102.87988 110.87988 117.98389">Dropout Layer</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M10.98 14.97H140.72V44.91H10.98Z" fill="#dae8fc"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#6c8ebf" d="M10.98 14.97H140.72V44.91H10.98Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="36" x="43.328126 54.000127 64.67213 74.44813 78.44813 88.22413 96.22413 102.44813">BCE Loss</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M370.24 200.59C370.24 200.59 370.24 196.55333 370.24 188.48"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M370.24 181.75 374.74 190.73 370.24 188.48 365.75 190.73 370.24 181.75Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M370.24 181.75 374.74 190.73 370.24 188.48 365.75 190.73 370.24 181.75Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M260.47 200.59H480.02003V260.47H260.47Z" fill="#d5e8d4"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#82b366" d="M260.47 200.59H480.02003V260.47H260.47Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="237" x="351.03126 361.70326 371.47926 381.1875">BERT</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M310.35 137.76 310.31 150.69"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M310.36 132.52 313.83 139.51 310.35 137.76 306.85 139.49 310.36 132.52Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M310.36 132.52 313.83 139.51 310.35 137.76 306.85 139.49 310.36 132.52Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M310.37 64.87 310.48 51.26"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M310.52 46.02 313.95 53.04 310.48 51.26 306.97 52.98 310.52 46.02Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M310.52 46.02 313.95 53.04 310.48 51.26 306.97 52.98 310.52 46.02Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M260.47 64.87H360.27003V131.4H260.47Z" fill="#dae8fc"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#6c8ebf" d="M260.47 64.87H360.27003V131.4H260.47Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="85" x="283.4375 293.2135 305.6615 313.6615 318.1095 322.5575 330.5575">Emotion</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="104" x="267 277.672 282.12 289.224 295.448 301.672 306.12 311.448 315.896 323 330.104 334.552 339 347">Classification</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="123" x="292.34376 302.11976 309.22377 317.22377 324.32777">Layer</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M370.24 280.43V266.82"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M370.24 261.58 373.74 268.57 370.24 266.82 366.75 268.57 370.24 261.58Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M370.24 261.58 373.74 268.57 370.24 266.82 366.75 268.57 370.24 261.58Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M260.47 280.43H480.02003V340.31H260.47Z" fill="#d5e8d4"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#82b366" d="M260.47 280.43H480.02003V340.31H260.47Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="317" x="272.57814 284.13014 289.45814 296.56214 303.66615 311.66615 319.66615 324.11415 328.56214 332.56214 337.89015 349.44215 353.89015 358.33815 366.33815 370.33815 377.44215 389.89015 397.89015 402.33815 406.78614 414.78614 422.78614 426.78614 431.23414 438.33815 446.33815 453.44215 457.89015 464.11415">Dreaddit (with emotion labels)</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M260.47 150.69H480.02003V180.63H260.47Z" fill="#d5e8d4"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#82b366" d="M260.47 150.69H480.02003V180.63H260.47Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="172" x="323.67189 335.22389 340.55189 348.55189 356.55189 364.55189 372.55189 376.99989 380.99989 390.77589 397.87989 405.87989 412.9839">Dropout Layer</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M260.47 14.97H480.02003V44.91H260.47Z" fill="#d5e8d4"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#82b366" d="M260.47 14.97H480.02003V44.91H260.47Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="36" x="320.54689 331.21888 339.21888 351.66688 359.66688 364.11488 372.11488 379.21888 387.21888 391.21888 400.99488 408.99488 415.21888">Combined Loss</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="13" font-family="TimesNewRomanPSMT"><tspan y="49" x="173.60938 181.55237 191.66637 198.16637 201.78037 205.39437 211.89437">Emotion</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="13" font-family="TimesNewRomanPSMT"><tspan y="65" x="180.82813 184.44213 190.21413 196.71413 202.48613 206.10013">labels</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="13" font-family="TimesNewRomanPSMT"><tspan y="80" x="171.8125 178.3125 182.6415 188.4135 194.9135 198.5275 204.2995 207.9135 213.6855">predicted</tspan></text>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M430.14 137.76 430.18 150.69"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M430.13 132.52 433.64 139.49 430.14 137.76 426.65 139.51 430.13 132.52Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M430.13 132.52 433.64 139.49 430.14 137.76 426.65 139.51 430.13 132.52Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M430.12 64.87 430.16 51.26"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M430.18 46.02 433.65 53.02 430.16 51.26 426.66 53 430.18 46.02Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M430.18 46.02 433.65 53.02 430.16 51.26 426.66 53 430.18 46.02Z"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" d="M380.22 64.87H480.02003V131.4H380.22Z" fill="#fff2cc"/>
+<path transform="matrix(.71951219,0,0,.71951219,.35975609,.35975609)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="4" stroke-linejoin="miter" fill="none" stroke="#d6b656" d="M380.22 64.87H480.02003V131.4H380.22Z"/>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="85" x="411.875 420.771 425.219 430.547 437.651 443.875">Stress</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="104" x="387 397.672 402.12 409.224 415.448 421.672 426.12 431.448 435.896 443 450.104 454.552 459 467">Classification</tspan></text>
+<text xml:space="preserve" transform="matrix(.71804687 0 0 .71804687 0 0)" font-size="16" font-family="TimesNewRomanPSMT"><tspan y="123" x="412.34376 422.11976 429.22377 437.22377 444.32777">Layer</tspan></text>
+</g>
+</svg>

@@ -5,7 +5,13 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/prism.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  		<script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  		</script>
+		
 	</head>
 	<body class="is-preload">
 
@@ -15,7 +21,8 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#" class="icon">About</a>
-						<!-- <a href="#experience" class="icon">Experience</a> -->
+						<a href="#projects" class="icon">Projects</a>
+						<a href="#CV" class="icon">CV</a>
 						<a href="#contact" class="icon">Contact</a>
 					</nav>
 
@@ -25,89 +32,448 @@
 						<!-- Me -->
 							<article id="home" class="panel">
 								<header>
-									<!-- <span class="image avatar">
-										<img src="images/profile.jpg" alt="" class="image avatar">
-									</span> -->
-									
 									<div class="container">
 										<div class="image">
 											<img src="images/Profile.jpg" class="image avatar">
 										</div>
 										<div class="text">
 											<h1>Jonathan Ivey</h1>
-											<p>Research Assistant at the University of Arkansas</p>
-										</div>
-										
+											<p class="description">Research Assistant at the University of Arkansas</p>
+											<div id="contact-card">
+												<ul class="copyright">
+													<li><a href="https://www.linkedin.com/in/j-ivey/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin"></a></li>
+													<li><a href="https://github.com/jonathanivey" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"></a></li>
+												</ul>
+											</div>
+										</div>	
 									</div>
-									
-									
 								</header>
-								
 								<p>
-									I'm a current data science and mathematics major at the University of Arkansas. My research is focused on NLP for social good,
-									and right now I'm working to improve minority stress detection models. I'm always looking to learn more and meet new people, so <a href="#contact">please reach out!</a>
+									I'm a current data science and mathematics major at the University of Arkansas. 
+									I have AI/ML experience from both industry and academic research, and my research is focused 
+									on modeling mental and emotional states with NLP. I'm currently looking for opportunities 
+									for Summer 2024. If you have any questions or just want to chat, <a href="#contact">please reach out!</a>
 								</p>
 							</article>
 
-						<!-- Experience
-							<article id="experience" class="panel">
-								<header>
-									<h2>Work</h2>
-								</header>
-								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
-								</p>
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+						<!-- Projects -->
+						<article id="projects" class="panel">
+							<header>
+								<h2>Recent Projects</h2>
+							</header>
+							<section>
+								<div class="projects">	
+									
+									<section>
+										<div class="card">
+											<a href="#minority-stress-project" style="text-decoration: none;">
+												<img class = "image" src="images/Multi Diagram.svg" alt="" />
+												<div class="inner">
+													<h4>Detecting Stress From Social Media Posts</h4>
+													<p>Building deep learning stress detection models with multi-task architectures and domain-specific pretrained language models.</p>
+													<p class="tag">Deep Learning</p><p class="tag">NLP</p><p class="tag">Text Classification</p>
+												</div>
+											</a>
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
+									</section>
+									<section>
+										<div class="card">
+											<a href="#interview-project" style="text-decoration: none;">
+												<img class = "image" src="images/parsing-interview-thumbnail.png" alt="" />
+												<div class="inner">
+													<h4>Parsing Semi-Structured Interviews</h4>
+													<p>Using NLP to automate qualitative data coding for public health research interviews.</p>	
+													<p class="tag">NLP</p><p class="tag">Automation</p><p class="tag">Healthcare</p>
+												</div>
+											</a>
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
+									</section>
+									<!-- <section>
+										<div class="card">
+											<a href="#" style="text-decoration: none;">
+												<img class = "image" src="images/pic03.jpg" alt="" />
+												<div class="inner">
+													<h4>Call Center Campaign Analysis</h4>
+													<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+													<p class="tag">Personal Project</p>
+												</div>
+											</a>
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div>
-									</div>
+									</section> -->
+								</div>
+							</section>
+						</article>
+
+						<!-- minority-stress-project -->
+						<article id="minority-stress-project" class="panel">
+							<header>
+								<h2 class="title">Detecting Stress From Social Media Posts</h2>
+								<form>
+									<button class="close" onclick="history.back()"></button>
+								</form>
+							</header>
+							<p>Check out the full code for this project on <a href="https://github.com/jonathanivey/detecting-stress-from-social-media-posts" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+							<div class="page">
+								<section class="intro">
+									<p>In this project, I …</p>
+									<ul>
+										<li>Reviewed current state-of-the-art methods for detecting stress from text in social media posts.</li>
+										<li>Implemented and combined those methods using PyTorch and Hugging Face's Transformers.</li>
+										<li>Created a modular testing environment for evaluating stress models. </li>
+									</ul>
 								</section>
-							</article> -->
+								<section>
+									<h3>The Task</h3>
+									<p>
+										I wanted to study the use of language models for detecting stress from social media posts. 
+										This task has important applications in gauging public mood, tracking disasters, and automating 
+										mental health interventions. Though there are many other inputs that are 
+										useful for detecting stress (audio, biological signals, and metadata), I wanted to focus on text 
+										analysis because it provides the most flexible base that can then be adapted to include other features 
+										if they are available.
+										<br>
+										However, before I could begin my research, I wanted to have a flexible implementation of the current 
+										state-of-the-art, so that I could draw clear connections between changes that I made and changes in 
+										performance. I started at the most basic unit of any research project: the baselines.
+									</p>
+								</section>
+								<section>
+									<h3>Baselines</h3>
+									<p>
+										When this task was first introduced, <a href="http://dx.doi.org/10.18653/v1/D19-6213" target="_blank" rel="noopener noreferrer">Turcan and McKeown</a> 
+										evaluated a wide range of classifiers including SVMS, decision trees, CNNs, and transformers. As with many 
+										other tasks, they found that applying transformers directly to the task yielded the best results. In their 
+										paper, they used a single-task <a href="https://huggingface.co/bert-base-uncased" target="_blank" rel="noopener noreferrer">BERT-base</a> model from Hugging 
+										Face. Their <a href="https://github.com/huggingface/transformers" target="_blank" rel="noopener noreferrer">Transformers library</a> makes the implementation 
+										of this model incredibly simple.
+									</p>
+								</section>
+								<section>
+									<h3>Emotion-Infused Models</h3>
+									<p>
+										<a href="http://dx.doi.org/10.18653/v1/2021.naacl-main.230" target="_blank" rel="noopener noreferrer">Turcan et al.</a> later expanded on that work by evaluating 
+										the use of so called “emotion-infused” models. These models integrate the multi-label task of emotion detection in the 
+										training process to improve the explainability of stress models. Though they did not provide significant performance 
+										improvements on the standard stress detection dataset, I was interested in their use for improving generalization to 
+										out-of-sample data, so I investigated them further.
+									</p>
+									<p>
+										There are three emotion-infused architectures:
+									</p>
+										<h4>Fine-Tune</h4>
+										<div class="inset">
+											<p>
+												A two-step approach where a single-task BERT model is first fine-tuned for emotion detection using binary cross-entropy 
+												(BCE) loss. Then, the language model parameters are transferred to another single-task model for stress detection, trained with 
+												negative log-likelihood (NLL) loss.
+											</p>
+											<img src="images/Fine-Tune Diagram.svg">
+										</div>
+										<h4>Multi<sup>Alt</sup></h4>
+										<div class="inset">
+											<p>
+												A simultaneous approach where we train both tasks with a single, shared language model, alternating between emotion detection 
+												and stress detection for each training batch. As with the Fine-Tune model, the emotion classifier uses BCE loss and the stress 
+												classifer trains with NLL loss. 
+											</p>
+											<img src="images/Multi-Alt Diagram.svg">
+										</div>
+										<h4>Multi</h4>
+										<div class="inset">
+											<p>
+												A classical multi-task approach that uses the same input data for both tasks. Because the stress data lacks emotions labels, 
+												we trained a separate single-task model for emotion detection and use it to predict emotion labels for the stress data. Then we 
+												train the multi-task model using a combined loss function given by \( \ell = \lambda \ell_{stress} + (1-\lambda) \ell_{emotion} \) where \(\ell_{stress}\) is 
+												the NLL loss for stress detection, \(\ell_{emotion}\) is the BCE loss for emotion detection, and \(\lambda\) is a weight parameter tuned during 
+												model selection. 
+											</p>
+											<img src="images/Multi Diagram.svg">
+										</div>
+								</section>
+								<section>
+									<h3>Domain-Specific Pretrained Models</h3>
+									<p>
+										Though the multi-task models were not shown to provide significant improvements over baselines, a later paper by 
+										<a href="https://doi.org/10.48550/arXiv.2110.15621" target="_blank" rel="noopener noreferrer">Ji et al.</a> did. They introduced the use of domain-specific 
+										pretrained models for mental health tasks. Rather than using the regular pretrained BERT models, they trained their 
+										language models on a corpus of mental health related subreddits. Following the same rationale that was used to create 
+										<a href="https://arxiv.org/abs/1901.08746" target="_blank" rel="noopener noreferrer">BioBERT</a>, these models were hypothesized to have a more in-depth understanding 
+										of mental health tasks. 
+									</p>
+								</section>
+								<section>
+									<h3>Conclusion</h3>
+									<p>
+										After a lot of reading, writing, and rewriting, my stress detection models were fully operational, and achieved performance 
+										equivalent to what was claimed in their original papers. As a bonus, when I combined the emotion-infused models with the 
+										domain-specific pretrained models, I was able to achieve performance marginally higher than any published numbers. After this 
+										project, I had a strong foundation to begin making my own contributions to stress detection. That research has since concluded 
+										and is currently under review at a conference, so I hope to make another post about it soon. 
+									</p>
+									<p>Check out the full code for this project on <a href="https://github.com/jonathanivey/detecting-stress-from-social-media-posts" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+								</section>
+								<section class="takeaways">
+									<p>From this project, I ...</p>
+									<ul>
+										<li>Gained a fuller understanding of fine-tuning and multi-task learning techniques.</li>
+										<li>Learned about the differences between theoretical designs and practical applications, 
+											and I found that working through the applications strengthens my understanding of the theory. </li> 
+										<li>Learned about the importance of extensibility. If I write flexible code the first time, then 
+											I don't have to rewrite my rigid code the next time.</li>
+									</ul>
+								</section>
+							</div>	
+						</article>
+						<!-- interview-project -->
+						<article id="interview-project" class="panel">
+							<header>
+								<h2 class="title">Parsing Semi-Structured Interviews</h2>
+								<form>
+									<button class="close" onclick="history.back()"></button>
+								</form>
+							</header>
+							<p>Check out the full code for this project on <a href="https://github.com/jonathanivey/parsing-semi-structured-interviews" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+							<div class="page">
+								<section class="intro">
+									<p>In this project, I …</p>
+									<ul>
+										<li>Used NLP techniques to create connections between the questions that were supposed to be asked in 
+											interviews, and the transcripts of the actual conversation.</li>
+										<li>Leveraged those connections to segment transcripts by turning points that are relevant for public
+											 health researchers.</li>
+										<li>Showed that my methods more than 10x the speed of transcript annotation.</li>
+									</ul>
+								</section>
+								<section>
+									<h3>The Task</h3>
+									<p>
+										Qualitative data is an essential, but often cumbersome, part of the public health research process. 
+										Researchers conduct long-form interviews that produce rich data, but before they can analyze that data, 
+										they must first manually sort through and label what each piece of the conversation was about. 
+									</p>
+									<img src="images/nvivo.jpg">
+									<p>
+										This labeling process often takes two part-time research assistants a full semester to complete. 
+										That is not only expensive, but it also significantly delays the results of the research. Though this 
+										task will likely always need some level of human oversight, I offered to help by designing a program to do a 
+										significant portion of this work automatically. 
+									</p>
+								</section>
+								<section>
+									<h3>Leveraging Semi-Structured Interviews</h3>
+									<p>
+										Before designing the program, I spoke with my colleagues to understand the format of the interviews. I quickly learned 
+										that nearly all their research relied on semi-structured interviews with a prewritten script. Though in practice, 
+										interviewers do not always follow the exact guidelines laid out for them, I was able to leverage this preexisting structure 
+										to identify the different sections of an interview.
+									</p>
+								</section>
+								<section>
+									<h3>My Approach</h3>
+									<ol>
+										<li>Use the script of what should be asked in an interview to create a table with the title of each interview section and the 
+											first question that is to be asked in that section.</li>
+										<img src="images/question-table.png">
+										<li>Clean the transcripts, so that each one is a single document of sentences with speaker tags.</li>
+<pre><code class="language-python"># read in lines from interview file
+with open(transcripts + '/' + filename, errors='ignore') as f:
+	lines = f.readlines()
+
+# remove all newline characters
+lines = [line.strip() for line in lines if line.strip()]
+
+# combine all the lines into one document
+doc = " ".join(lines)</code></pre>
+										<li>Use <a href="https://spacy.io" target="_blank" rel="noopener noreferrer">spaCy</a> to break the transcript into a series of sentences.</li>
+<pre><code class="language-python"># load spacy's english pipeline
+nlp = spacy.load('en_core_web_sm')
+
+# use spacy's pipeline to separate the document into sentences
+sentences = [i.text for i in nlp(doc).sents]</code></pre>
+										<li>Use <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2" target="_blank" rel="noopener noreferrer">sentence transformers</a> to create embeddings of 
+											every sentence in the transcript and every question in the section table.</li>
+<pre><code class="language-python"># load the sentences transformer huggingface model
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+	
+# compute embeddings for both questions and sentences
+question_embeddings = model.encode(questions, convert_to_tensor=True)
+sentence_embeddings = model.encode(sentences, convert_to_tensor=True)</code></pre>
+										<li>For each section, compare the embedding of its first question to the transcripts sentence embeddings with cosine similarity. 
+											We can now identify what the “exact wording” is of each question.</li>
+<pre><code class="language-python"># create a list of the sentences with the maximum similarity to each of the script's questiosn
+exact_questions = []
+question_scores = []
+
+for i in range(len(cosine_scores)):
+	best_sentence = sentences[torch.argmax(cosine_scores[i])]
+	exact_questions.append(best_sentence.strip())
+	question_scores.append(torch.max(cosine_scores[i]))</code></pre>
+										<li>Because there are inconsistencies in how interviewers ask questions, only insert section labels when the cosine similarity is at 
+											least 75%. In situations where there is not that high of a confidence level, alert the user with an error message, and direct them to 
+											the piece of the text, so a human can review the results and make appropriate changes.</li>
+<pre><code class="language-python"># if the question we find isn't at least 75% similar, don't add the label
+if question_scores[i] < .75:
+	print('\nError finding question for ' + categories[i])
+	print('\n\tOriginal question wording:\n\t' + questions[i])
+	print('\n\tMost similar sentence we found:\n\t' + question)</code></pre>
+										<li>Finally, find the first natural break in the transcript that occurs before the exact wording of each question, and we know that is the 
+											beginning of each section.</li>
+<pre><code class="language-python"># find the index of the question
+r_bound = transcript.find(question)
+
+# if we fail to find a question, then throw an error.
+if r_bound == -1:
+	print('Error trying to find beginning question for ' + categories[i])
+	print('\n\tFailed to find this question:\n\t' + question)
+else:
+	# find the first time that the interviewer speaks before the question
+	location = transcript.rfind('Interviewer', 0, r_bound)
+
+	# insert the name of each category at the relevant location in the transcript
+	transcript = transcript[:location] + '\n\n[' + categories[i] + ']\n\n' + transcript[location:]</code></pre>
+									</ol>
+								</section>
+								<section>
+									<h3>Results</h3>
+									<p>
+										When evaluated on a series of 50 interviews from 2 different studies, my method had only 15 sections that needed to be reviewed by 
+										humans, as opposed to the normal 650, and every single section that needed to be reviewed was appropriately flagged by my program. 
+										I estimate that this would enable a single-human reviewer to easily complete one-semester's worth of processing in less than 4 hours.
+									</p>
+									<p>Check out the full code for this project on <a href="https://github.com/jonathanivey/parsing-semi-structured-interviews" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+								</section>
+								<section class="takeaways">
+									<p>From this project, I learned ...</p>
+									<ul>
+										<li>The confidence of a prediction is often just as important as the prediction itself.</li>
+										<li>There are always edge cases, so models need a way to break safely.</li> 
+										<li>Even if you can't fully automate something, you can still exponentially improve a manual process.</li>
+									</ul>
+								</section>
+							</div>
+						</article>
+
+						<!-- CV -->
+							<article id="CV" class="panel">
+								<h1 style="text-align:center;">Jonathan Ivey</h1>
+								<div id="contact-info">
+									<ul class="copyright">
+										<li>jwi001@uark.edu</li>
+										<li>(479) 597-6397</li>
+										<li><a href="https://www.linkedin.com/in/j-ivey/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin"></a></li>
+										<li><a href="https://github.com/jonathanivey" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"></a></li>
+									</ul>
+								</div>
+
+								<h2>Education</h2>
+								<table class="CV-table">
+									<tbody>
+										<tr>
+											<td><b>B.S. Data Science</b><br>University of Arkansas, Fayetteville<br></td>
+											<td><b>Aug. 2021 - May 2025</b><br></td>
+										</tr>
+										<tr>
+											<td><b>B.A. Mathematics</b><br>University of Arkansas, Fayetteville<br></td>
+											<td><b>Aug. 2021 - May 2025</b><br></td>
+										</tr>
+									</tbody>
+								</table>
+
+								<hr>
+
+								<!-- <h2>Publications</h2>
+								<table class="CV-table">
+									<tbody>
+										<tr>
+											<td><b>Minority Stress Detection with Emotions</b><br>Jonathan Ivey and Dr. Susan Gauch<br></td>
+											<td><i>Under Review</i><br></td>
+										</tr>
+									</tbody>
+								</table>
+
+								<hr> -->
+
+								<h2>Professional Experience</h2>
+
+								<table class="CV-table">
+									<tbody>
+										<tr>
+											<td><b>NLP Research Assistant</b><br>University of Arkansas, Fayetteville<br></td>
+											<td><b>Aug. 2022 - Present</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Qualitative Research Analyst</b><br>University of Arkansas, Fayetteville<br></td>
+											<td><b>May 2023 - Present</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Data Science Intern</b><br>J.B. Hunt Transport Services<br></td>
+											<td><b>June 2022 - Aug. 2022</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Business Intelligence Intern</b><br>ArcBest Technologies<br></td>
+											<td><b>June 2021 - Aug. 2021</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Business Intelligence Student Worker</b><br>ArcBest Technologies<br></td>
+											<td><b>June 2020 - Sept. 2020</b><br></td>
+										</tr>
+									</tbody>
+								</table>
+
+								<hr>
+								
+								<h2>Campus Involvement</h2>
+								<table class="CV-table">
+									<tbody>
+										<tr>
+											<td><b>Vice Chancellor of Research and Innovation Search Committee</b><br>University of Arkansas, Fayetteville<br></td>
+											<td><b>Jan. 2023 - Present</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Director of Policy</b><br>Associated Student Government<br></td>
+											<td><b>Apr. 2023 - Present</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Director of Student Relations</b><br>Associated Student Government<br></td>
+											<td><b>Apr. 2022 - Apr. 2023</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Co-Founder</b><br>The Quiz Bowl Club<br></td>
+											<td><b>Sept. 2021 - Sept. 2022</b><br></td>
+										</tr>
+									</tbody>
+								</table>
+
+								<hr>
+
+								<h2>Skills</h2>
+								<p><b>Programming Languages:</b> Python, R, SQL, Java <br>
+									<b>Experienced with:</b> Pytorch, Transformers, Pandas, Scikit-learn, PySpark, NumPy, Databricks, Tableau, Power BI</p>
+								<hr>
+
+								<h2>Awards and Honors</h2>
+								<table class="CV-table">
+									<tbody>
+										<tr>
+											<td><b>2nd Place in Undergraduate Research Competition</b><br>University of Arkansas, Fayetteville<br></td>
+											<td><b>Apr. 2023</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Outstanding Cabinet Member of the Year</b><br>Associated Student Government<br></td>
+											<td><b>Apr. 2023</b><br></td>
+										</tr>
+										<tr>
+											<td><b>Bodenhamer Fellowship</b><br>University of Arkansas, Fayetteville<br></td>
+											<td><b>June 2021</b><br></td>
+										</tr>
+									</tbody>
+								</table>
+
+							</article>
 
 						<!-- Contact -->
 							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<p>Feel free to reach out to me via email (jwi001@uark.edu), <a href="https://www.linkedin.com/in/j-ivey/">LinkedIn</a>,
-								or by submitting the form below.</p>
+								<h2>Contact</h2>
 								<form action="https://formspree.io/f/meqwobyd" method="post">
 									<div>
 										<div class="row">
@@ -136,7 +502,11 @@
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
-							<li>Jonathan Ivey</li><li>jwi001@uark.edu</li><li>479-597-6397</li><li><a href="https://www.linkedin.com/in/j-ivey/" class="icon brands fa-linkedin"></a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>Jonathan Ivey</li>
+							<li>jwi001@uark.edu</li>
+							<li><a href="https://www.linkedin.com/in/j-ivey/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin"></a></li>
+							<li><a href="https://github.com/jonathanivey" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"></a></li>
+							<li>Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
 						</ul>
 					</div>
 
@@ -148,6 +518,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/prism.js"></script>
 
 	</body>
 </html>
