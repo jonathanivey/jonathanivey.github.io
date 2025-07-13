@@ -362,18 +362,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-received-the-computing-research-association-s-outstanding-undergraduate-researcher-award",
+            },},{id: "news-i-received-the-computing-research-association-s-outstanding-undergraduate-researcher-award",
           title: 'I received the Computing Research Association’s Outstanding Undergraduate Researcher Award!',
           description: "",
           section: "News",},{id: "news-i-received-the-arkansas-alumni-association-s-senior-honor-citation-recognizing-me-as-the-top-male-student-in-my-graduating-class-i-also-received-the-best-transfer-of-knowledge-award-from-the-university-of-arkansas-data-science-program",
