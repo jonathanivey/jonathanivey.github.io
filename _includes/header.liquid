@@ -6,9 +6,7 @@
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
+              {{- site.first_name -}}
             {% endif %}
             {% if site.middle_name %}
               {{- site.middle_name -}}
@@ -125,6 +123,13 @@
               </button>
             </li>
           {% endif %}
+          <li class="nav-item">
+            <a href="http://127.0.0.1:4000/assets/pdf/jonathan_ivey_cv.pdf">
+              <button type="button" class="btn btn-dark btn-rounded cv-button" data-mdb-ripple-init>
+                CV
+              </button>
+            </a>
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">

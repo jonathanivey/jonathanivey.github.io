@@ -1,17 +1,14 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student at Johns Hopkins University
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: true # crops the image to make it circular
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +19,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am first year PhD Student in Computer Science at Johns Hopkins University co-advised by [Anjalie Field](https://anjalief.github.io/) and [Ziang Xiao](https://www.ziangxiao.com/). Previously, I completed my undergraduate degrees in data science and mathematics at the University of Arkansas where I was advised by [Dr. Susan Gauch](https://engineering.uark.edu/electrical-engineering-computer-science/computer-science-faculty/uid/sgauch/name/Susan+E.+Gauch/) and collaborated with [Dr. David Jurgens](https://jurgens.people.si.umich.edu/) at the University of Michigan.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are currently focused on capturing nuance in text. I am particularly interested in NLP methods for collecting and analyzing qualitative data at scale. Previously, I have done research on retaining disagreement in human annotations, evaluating the ability of LLMs to simulate human dialogues, and helping stress detection models generalize to minorities.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In general, I love projects that try to model complicated, context-dependent data, and I am always looking for creative visualizations. Outside of work, I play guitar and enjoy watching movies. If you have any questions or just want to chat, please reach out!

@@ -34,7 +34,13 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   img {
-    width: 100%;
+    width: 10rem;
+  }
+  figure {
+    padding-right: 1.5rem;
+  }
+  h1 { 
+    font-size: 2.1rem;
   }
 }
 
