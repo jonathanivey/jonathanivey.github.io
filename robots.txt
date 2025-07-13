@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jonathanivey.github.io/sitemap.xml
+Sitemap: https://jonathaivey.github.io/sitemap.xml
