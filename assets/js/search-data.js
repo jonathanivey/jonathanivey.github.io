@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
@@ -373,6 +380,15 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-nutmeg-separating-signal-from-noise-in-annotator-disagreement-has-been-accepted-to-emnlp-2025",
           title: 'Our paper, NUTMEG: Separating Signal From Noise in Annotator Disagreement, has been accepted...',
+          description: "",
+          section: "News",},{id: "news-i-officially-began-my-phd-in-computer-science-at-johns-hopkins-university",
+          title: 'I officially began my PhD in Computer Science at Johns Hopkins University!',
+          description: "",
+          section: "News",},{id: "news-our-paper-real-or-robotic-assessing-whether-llms-accurately-simulate-qualities-of-human-responses-in-dialogue-has-been-accepted-to-acl-2026-findings",
+          title: 'Our paper, Real or Robotic? Assessing Whether LLMs Accurately Simulate Qualities of Human...',
+          description: "",
+          section: "News",},{id: "news-our-new-preprint-what-makes-a-good-response-an-empirical-analysis-of-quality-in-qualitative-interviews-is-out-now",
+          title: 'Our new preprint, What Makes a Good Response? An Empirical Analysis of Quality...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
