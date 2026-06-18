@@ -11,7 +11,10 @@
     {% when 'discord_id' %}
       <a href="https://discord.com/users/{{ social[1] }}" title="Discord"><i class="fa-brands fa-discord"></i></a>
     {% when 'email' %}
-      <a href="mailto:{{ social[1] | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+      {% assign _ep = social[1] | split: "@" %}
+      <a id="emailCopyBtn" data-eu="{{ _ep[0] | encode_email }}" data-ed="{{ _ep[1] | encode_email }}" title="email" role="button" style="cursor:pointer"><i class="fa-solid fa-envelope"></i></a>
+      <div id="email-popup" style="display:none;position:fixed;background:#333;color:#fff;padding:7px 13px;border-radius:6px;font-size:0.85rem;z-index:9999;pointer-events:none;white-space:nowrap;"></div>
+      <script defer src="{{ '/assets/js/email-copy.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
     {% when 'facebook_id' %}
       <a href="https://facebook.com/{{ social[1] }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
     {% when 'flickr_id' %}

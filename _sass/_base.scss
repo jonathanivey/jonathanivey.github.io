@@ -132,6 +132,15 @@ blockquote {
       color: var(--global-danger-block-title);
     }
   }
+
+  &.block-grey {
+    border-color: var(--global-text-color-light);
+    font-size: 1rem;
+
+    p {
+      color: var(--global-text-color-light);
+    }
+  }
 }
 
 // Checklist
@@ -328,6 +337,7 @@ ul.task-list input[type="checkbox"] {
     padding: 0.2rem 0.9rem;
     border-radius: 0.25rem;
     margin-left: 0.5rem;
+    box-shadow: none;
   }
 
   .navbar-brand.social {
@@ -720,6 +730,20 @@ footer.sticky-bottom {
 
 // Publications
 
+.more-section-link {
+  display: block;
+  text-align: center;
+  margin-top: -0.75rem;
+  color: var(--global-text-color-light);
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-text-color);
+    text-decoration: underline;
+  }
+}
+
 .publications {
   margin-top: 2rem;
 
@@ -934,6 +958,17 @@ html.transition *:after {
 }
 
 // Extra Markdown style (post Customization)
+#markdown-content {
+  h2,
+  h3 {
+    margin-top: 2.5rem;
+  }
+}
+
+.post article > h2 {
+  margin-top: 2.5rem;
+}
+
 .post {
   .post-meta {
     color: var(--global-text-color-light);
@@ -1442,4 +1477,11 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+.click-tip {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
 }

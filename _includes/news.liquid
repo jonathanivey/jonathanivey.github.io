@@ -3,34 +3,9 @@
     {% assign news_size = site.news | size %}
     {% assign is_collapsible = include.limit and page.announcements.scrollable and news_size > 3 %}
 
-    {% if is_collapsible %}
-      <style>
-        .news-expandable {
-          position: relative;
-        }
-
-        .news-more-link {
-            display: block;
-            text-align: center;
-            margin-top: -2rem;
-            padding-bottom: 1rem;
-            position: relative;
-            z-index: 3;
-            pointer-events: auto;
-            color: var(--global-text-color-light);
-            font-weight: 600;
-            text-decoration: none;
-          }
-
-        .news-more-link:hover {
-          color: var(--global-text-color);
-          text-decoration: underline;
-        }
-      </style>
-    {% endif %}
 
     <div
-      class="table-responsive{% if is_collapsible %} news-expandable{% endif %}"
+      class="table-responsive"
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
@@ -62,7 +37,7 @@
     </div>
 
     {% if is_collapsible %}
-      <a class="news-more-link" href="{{ '/news/' | relative_url }}">More News</a>
+      <a class="more-section-link" href="{{ '/news/' | relative_url }}">More News</a>
     {% endif %}
   {% else %}
     <p>No news so far...</p>

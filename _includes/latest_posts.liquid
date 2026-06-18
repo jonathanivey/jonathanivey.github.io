@@ -42,6 +42,10 @@
         {% endfor %}
       </table>
     </div>
+
+    {% if page.latest_posts.limit and latest_posts_size > latest_posts_limit %}
+      <a class="more-section-link" href="{{ '/blog/' | relative_url }}">More Posts</a>
+    {% endif %}
   {% else %}
     <p>No posts so far...</p>
   {% endif %}
